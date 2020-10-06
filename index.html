@@ -63,24 +63,23 @@ crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/portfoliopage.css">
 </head>
 <!-- START NAV -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<nav id="navbar" class="nav">
-  <ul class="nav-list">
-    <li>
-      <a href="#welcome-section">About</a>
-    </li>
-    <li>
-      <a href ="#services">Services</a>
-    </li>
-    <li>
-      <a href="#projects">Projects</a>
-    </li>
-    <li>
-      <a href="#contact">Contact</a>
-    </li>
-  </ul>
-</nav>
-
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#projects">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 <!-- END NAV -->
 
 <!-- START WELCOME SECTION -->
