@@ -178,7 +178,7 @@
   }
   
   /* Style the navbar links */
-  #navbar a {
+  #navbar li {
     float: left;
     display: block;
     color: var(--main-blue);
@@ -187,7 +187,7 @@
     text-decoration: none;
   }
   
-  #navbar a:hover {
+  #navbar li:hover {
     background-color: #ddd;
     color: black;
   }
