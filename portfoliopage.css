@@ -111,7 +111,7 @@
   }
   /*navbar*/
   .navbar {
-position: fixed;
+position: relative;
 color: cyan;
 background-color: var(--main-silver);
   }
