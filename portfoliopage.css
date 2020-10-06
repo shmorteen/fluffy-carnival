@@ -107,19 +107,19 @@
   }
   /*768px/16px /*for mobile phones:*/
   html{
-    width: 100%;
+    width: 70%;
   }
   
   /*profile picture*/
   .profile-image {
     border-color: var(--main-blue);
-    border-width: 2px;
+    border-width: 10px;
     border-style: dashed;
     border-radius: 50%; 
   }
   .image-size{
     width: 50px;
-    height: 70px;
+    height: 100px;
     vertical-align: middle;
     border-radius: 50%;
   }
@@ -219,7 +219,7 @@
     height: 100vh;
     background-color: var(--main-silver);
     background-image:url(portpic.jpg);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -283,6 +283,23 @@ img {
 img {
   vertical-align: middle;
   border-style: none;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+a {
+  color: #d80000;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
 }
 .single_service:hover {
   background-color: var(--main-blue);
