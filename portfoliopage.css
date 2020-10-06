@@ -107,20 +107,18 @@
   }
   /*768px/16px /*for mobile phones:*/
   html{
-    width: 100%;
+    width: 80%;
   }
   
   /*profile picture*/
   .profile-image {
-    border-color: var(--main-silver);
+    border-color: var(--main-blue);
     border-width: 2px;
-    border-style: transparent;
+    border-style: dashed;
     border-radius: 50%;
-  }
-  .image-size {
-    width: 100px;
-    height: 100px;
-    position: center;
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
   }
   /* Base styles */
   
@@ -207,10 +205,10 @@
     background: var(--main-silver);
   }
 /*  media for mobile*/
-@media (max-width: 600px)
+
 .topnav {
    overflow: hidden;
-  background-color: #333;
+  background-color:transparent;
   position: relative;
 }
 
@@ -243,11 +241,6 @@
   color: black;
 }
 
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
   
   /* Welcome section */
   
@@ -389,8 +382,8 @@ i, span, a {
   margin-top: 10px;
 }
 p {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 300;
   line-height: 24px;
   color: #000000;
   margin: 0px;
@@ -531,7 +524,7 @@ p {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 80vh;
+    height: 50vh;
     padding: 0 2rem;
     background-image: url(contact-image.jpg);
     background-size: cover;
