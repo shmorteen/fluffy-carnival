@@ -111,10 +111,14 @@
   }
   /*navbar*/
   .navbar {
-position: fixed;
-width: 100%;
-background-color: var(--main-silver);
-border: 1px solid gray;
+ position: fixed;
+ width: 100%;
+ background-color: var(--main-silver);
+ border: 1px solid gray;
+  }
+  li:hover {
+    color: #0056b3;
+    text-decoration: underline;
   }
   
    
