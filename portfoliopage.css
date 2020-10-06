@@ -107,19 +107,19 @@
   }
   /*768px/16px /*for mobile phones:*/
   html{
-    width: 70%;
+    width: 100%;
   }
   
   /*profile picture*/
   .profile-image {
     border-color: var(--main-blue);
-    border-width: 10px;
+    border-width: 2px;
     border-style: dashed;
     border-radius: 50%; 
   }
   .image-size{
     width: 50px;
-    height: 100px;
+    height: 70px;
     vertical-align: middle;
     border-radius: 50%;
   }
@@ -219,7 +219,7 @@
     height: 100vh;
     background-color: var(--main-silver);
     background-image:url(portpic.jpg);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
