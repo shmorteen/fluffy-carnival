@@ -166,6 +166,9 @@
   
   
   /* Home section */
+  .about {
+  height: 60vh;
+  }
   
   .home-section {
     display: flex;
