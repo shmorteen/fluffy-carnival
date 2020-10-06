@@ -230,7 +230,7 @@
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: transparent;
   display: block;
   position: absolute;
   right: 0;
