@@ -111,7 +111,7 @@
   }
   /*navbar*/
   .navbar {
-position: relative;
+position: flex;
 background-color: var(--main-silver);
   }
   .navbar-brand, .nav{
