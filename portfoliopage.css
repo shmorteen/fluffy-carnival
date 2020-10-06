@@ -241,7 +241,7 @@
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-    background-color:transparent;
+    background-color: #fff;
   }
   .single_service .service_icon i, .single_service .service_icon img {
     width: 80px;
@@ -249,8 +249,8 @@
     line-height: 80px;
     text-align: center;
     font-size: 46px;
-    background-color: var(--main-blue);
-    color: transparent;
+    background-color: transparent;
+    color: #fff;
     border-radius: 25px;
     border-bottom-right-radius: 0;
     -webkit-transition: all 0.3s ease-out 0s;
