@@ -185,6 +185,8 @@
   @media (max-width: 28.75em) {
     .nav {
       justify-content: left;
+      font-size: 1.2rem;
+      
     }
   
     .nav-list {
