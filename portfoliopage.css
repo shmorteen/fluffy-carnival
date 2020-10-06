@@ -131,11 +131,6 @@
     font-weight: 400; 
     line-height: 1.4;
     color: var(--main-blue);
-    background-image:  url("portpic.jpg") !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
   }
   
   h1,
