@@ -119,7 +119,7 @@
   }
   .image-size{
     width: 50px;
-    height: 50px;
+    height: 70px;
     vertical-align: middle;
     border-radius: 50%;
   }
@@ -269,6 +269,20 @@
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+}
+.single_project .project_image img {
+  width: 100%;
+  border-radius: 5px;
+}
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+img {
+  max-width: 100%;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
 }
 .single_service:hover {
   background-color: var(--main-blue);
