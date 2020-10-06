@@ -121,6 +121,7 @@
     width: 50px;
     height: 50px;
     vertical-align: middle;
+    border-radius: 50%;
   }
   /* Base styles */
   
@@ -169,29 +170,43 @@
   
   /* nav */
   
-  #navbar {
-    background-color: transparent; /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    top: 0; /* Stay on top */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
   }
   
-  /* Style the navbar links */
-  #navbar a {
-    float: left;
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+  }
+  
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
+  
+  .nav-list a {
     display: block;
-    color: var(--main-blue);
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 2rem;
   }
   
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
+  .nav-list a:hover {
+    background: var(--main-blue);
   }
-
+  
   
   /* Welcome section */
   
