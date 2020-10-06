@@ -111,8 +111,8 @@
   }
   /*navbar*/
   .navbar {
-position: fixed;
-background-color: transparent;
+position: relative;
+background-color: var(--main-silver);
   }
   
   /*profile picture*/
