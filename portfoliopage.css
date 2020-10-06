@@ -116,6 +116,8 @@
     border-width: 2px;
     border-style: transparent;
     border-radius: 50%;
+  }
+  .image-size {
     width: 100px;
     height: 100px;
     position: center;
@@ -174,7 +176,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-silver);
+    background: transparent;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
   }
@@ -216,6 +218,10 @@
     height: 100vh;
     background-color: var(--main-silver);
     background-image:url(portpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
   }
   
   .welcome-section > p {
@@ -235,7 +241,7 @@
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-    background-color: #fff;
+    background-color:transparent;
   }
   .single_service .service_icon i, .single_service .service_icon img {
     width: 80px;
@@ -244,7 +250,7 @@
     text-align: center;
     font-size: 46px;
     background-color: var(--main-blue);
-    color: #fff;
+    color: transparent;
     border-radius: 25px;
     border-bottom-right-radius: 0;
     -webkit-transition: all 0.3s ease-out 0s;
