@@ -116,7 +116,7 @@
  background-color: var(--main-silver);
  border: 1px solid gray;
   }
-  li:hover {
+  .navbar, li:hover {
     color: #0056b3;
     text-decoration: underline;
   }
