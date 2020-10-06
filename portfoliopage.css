@@ -167,48 +167,10 @@
   
   /* nav */
   
-  .topnav {
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: transparent;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-    z-index: 10;
-  }
-  
-  .topnav #myLinks {
-    display: flex;
-    margin-right: 2rem;
-  }
-  
-  @media (max-width: 28.75em) {
-    .topnav {
-      justify-content: center;
-    }
-  
-    .topnav-list {
-      margin: 0 1rem;
-    }
-  }
-  
-  .topnav-list a {
-    display: block;
-    font-size: 2.2rem;
-    color: var(--main-blue);
-    padding: 2rem;
-  }
-  
-  .topnav-list a:hover {
-    background: var(--main-silver);
-  }
-/*  media for mobile*/
-
+  /* Style the navigation menu */
 .topnav {
-   overflow: hidden;
-  background-color:transparent;
+  overflow: hidden;
+  background-color: #333;
   position: relative;
 }
 
@@ -228,7 +190,7 @@
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: transparent;
+  background: black;
   display: block;
   position: absolute;
   right: 0;
@@ -239,6 +201,12 @@
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
   
