@@ -113,7 +113,7 @@
   /*profile picture*/
   .profile-image {
     border-color: var(--main-blue);
-    border-width: 2px;
+    border-width: 20px;
     border-style: dashed;
     border-radius: 50%; 
   }
@@ -142,7 +142,7 @@
   }
   
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   
   h2 {
@@ -213,11 +213,6 @@
     width: 100%;
     height: 100vh;
     background-color: var(--main-silver);
-    background-image:url(portpic.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
   }
   
   .welcome-section > p {
