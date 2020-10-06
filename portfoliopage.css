@@ -111,12 +111,11 @@
   }
   /*navbar*/
   .navbar {
-position: flex;
+position: fixed;
+color: cyan;
 background-color: var(--main-silver);
   }
-  .navbar-brand, .nav{
-    color: cyan;
-  }
+  
    
   /*profile picture*/
   .profile-image {
