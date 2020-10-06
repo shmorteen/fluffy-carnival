@@ -345,27 +345,6 @@ i, span, a {
 i, span, a {
     display: inline-block;
 }
-.devicon-css3-plain:before {
-    content: "\e679";
-}
-.devicon-html5-plain:before {
-    content: "\e7f7";
-}
-    .devicon-react-original:before, .devicon-react-plain:before {
-    content: "\e601";
-}
- .devicon-github-original:before, .devicon-github-plain:before {
-    content: "\e909";   
-}
-.devicon-python-plain:before {
-  content: "\eb89";
-}
-.fa-js:before {
-    content: "\f3b8";
-}
-.devicon-visualstudio-plain:before {
-    content: "\e927";
-}
 .about_content p {
   margin-top: 10px;
 }
