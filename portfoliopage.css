@@ -168,7 +168,7 @@
   /* Home section */
   
   .home-section {
-    display: relative;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
