@@ -110,11 +110,16 @@
     width: 100%;
   }
   /*navbar*/
+  .header{
+    position: relative;
+    top:0;
+    width: auto;
+  }
   .navbar {
 position: fixed;
 width: 100%;
-color: cyan;
 background-color: var(--main-silver);
+border: 1px solid gray;
   }
   
    
