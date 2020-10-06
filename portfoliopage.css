@@ -114,7 +114,10 @@
 position: relative;
 background-color: var(--main-silver);
   }
-  
+  .a, .ul{
+    color: cyan;
+  }
+   
   /*profile picture*/
   .profile-image {
     border-color: var(--main-blue);
