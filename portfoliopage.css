@@ -161,14 +161,14 @@
   img {
     display: block;
     width: 100%;
-    align-items: center;
+    
   }
   
   
   /* Home section */
   
   .home-section {
-    display: flex;
+    display: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -180,7 +180,7 @@
   
   .home-section > p {
     font-size: 2rem;
-    font-weight: 200;
+    font-weight: 100;
     font-style: italic;
     color: var(--main-blue);
   }
